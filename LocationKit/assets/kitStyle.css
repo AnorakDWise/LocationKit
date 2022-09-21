@@ -1,0 +1,38 @@
+.kitStyle a {
+  width: 12.5vw;
+  height: 7.5vh;
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+  --tw-gradient-from: #171717;
+  --tw-gradient-to: rgb(23 23 23 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #525252;
+  border-radius: 1.5rem /* 24px */;
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03))
+    drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out all 0.2s;
+  filter: brightness(100%);
+}
+
+.kitStyle a:hover {
+  cursor: pointer;
+  filter: brightness(80%);
+  transition: ease-in-out all 0.2s;
+}
+
+.kitStyle a img {
+  width: 2.5vw;
+}
+
+.kitStyle a p {
+  --tw-text-opacity: 1;
+  color: rgb(231 229 228 / var(--tw-text-opacity));
+  font-weight: 500;
+  font-size: 1.25vw;
+  line-height: 2.5vh;
+}
